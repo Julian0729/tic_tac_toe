@@ -129,7 +129,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "#fff",
     marginBottom: 20,
-    textShadowColor: "cyan",
+    textShadowColor: "green",
     textShadowRadius: 10,
   },
   scoreBoard: {
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     fontSize: 40,
     fontWeight: "bold",
     color: "#fff",
-    textShadowColor: "cyan",
+    textShadowColor: "green",
     textShadowRadius: 10,
   },
   nextPlayer: {
@@ -173,13 +173,13 @@ const styles = StyleSheet.create({
     marginVertical: 10,
   },
   resetButton: {
-    marginTop: 20,
+    marginTop: 30,
     padding: 10,
-    backgroundColor: "blue",
+    backgroundColor: "pink",
     borderRadius: 5,
   },
   resetText: {
-    color: "#fff",
+    color: "black",
     fontSize: 18,
   },
   inputContainer: {
