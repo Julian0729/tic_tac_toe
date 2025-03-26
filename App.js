@@ -42,7 +42,7 @@ const GameProvider = ({ children }) => {
   const resetGame = () => setBoard(Array(9).fill(null));
 
   const showWinnerAlert = (winner) => {
-    Alert.alert("🎉 Congratulations! 🎉", `\n${winner} wins!`, [
+    Alert.alert("                  Congratulations! 🎉", `\n${winner} WINS!`, [
       { text: "OK" },
     ]);
   };
